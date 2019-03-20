@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<form
+  className="inputForm"
+  onSubmit={[Function]}
+>
+  <div
+    className="row"
+  >
+    <TextField
+      className="field"
+      label="Name"
+      name="name"
+      placeholder="Name"
+      required={false}
+      select={false}
+      type="text"
+      variant="standard"
+    />
+    <br />
+    <TextField
+      className="field"
+      label="Surname"
+      name="surname"
+      placeholder="Surname"
+      required={false}
+      select={false}
+      type="text"
+      variant="standard"
+    />
+    <TextField
+      className="field"
+      label="Mail"
+      name="mail"
+      placeholder="Mail"
+      required={false}
+      select={false}
+      type="text"
+      variant="standard"
+    />
+    <TextField
+      className="field"
+      defaultValue="2019-02-22"
+      id="date"
+      label="Meetup date"
+      name="DatePicker"
+      required={false}
+      select={false}
+      type="date"
+      variant="standard"
+    />
+    <button
+      className="btn btn-primary"
+    >
+      Submit
+    </button>
+    <ForwardRef(Bootstrap(Modal))
+      onHide={[Function]}
+      show={false}
+    >
+      <ForwardRef(Bootstrap(ModalHeader))
+        closeButton={true}
+      >
+        <ForwardRef(Bootstrap(ModalTitle))>
+          Sent confirmation!
+        </ForwardRef(Bootstrap(ModalTitle))>
+      </ForwardRef(Bootstrap(ModalHeader))>
+      <ForwardRef(Bootstrap(ModalBody))>
+        Woohoo, your data were sucesfully sent!
+      </ForwardRef(Bootstrap(ModalBody))>
+      <ForwardRef(Bootstrap(ModalFooter))>
+        <button
+          onClick={[Function]}
+          variant="primary"
+        >
+          Close
+        </button>
+      </ForwardRef(Bootstrap(ModalFooter))>
+    </ForwardRef(Bootstrap(Modal))>
+  </div>
+  <div
+    className="errors"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>
+</form>
+`;

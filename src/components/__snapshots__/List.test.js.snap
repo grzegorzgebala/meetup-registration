@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <ul
+    className="list"
+  >
+    <h3>
+      Users List
+    </h3>
+    <strong
+      className="listElement col-3"
+    >
+      Name
+    </strong>
+    <strong
+      className="listElement col-3"
+    >
+      Surname
+    </strong>
+    <strong
+      className="listElement col-3"
+    >
+      Mail
+    </strong>
+    <strong
+      className="listElement col-2"
+    >
+      Date
+    </strong>
+  </ul>
+</div>
+`;

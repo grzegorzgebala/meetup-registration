@@ -1,0 +1,15 @@
+.inputForm {
+	margin-top: 50px;
+}
+
+.field {
+	margin: 20px !important;
+}
+
+.row {
+	justify-content: center;
+}
+
+.errors {
+	color: red;
+}
